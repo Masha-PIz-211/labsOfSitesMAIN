@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Связаться со мной</title>
+</head>
+<body>
+    <h1>Связаться со мной</h1>
+    <form action="submit_form.php" method="post">
+        <label for="lastname">Фамилия:</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+
+        <label for="firstname">Имя:</label>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+
+        <label for="email">Электронная почта:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Номер телефона:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="consent">
+            <input type="radio" id="consent" name="consent" required> Соглашаюсь на обработку данных
+        </label><br><br>
+
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
