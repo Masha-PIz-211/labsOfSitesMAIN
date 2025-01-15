@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background: #8dd8bd;
+    display: table;
+    min-height: 100vh;
+    width: 100%;
+}
+
+main {
+    display: table-row;
+    height: 100%;
+}
+
+header
+{
+    margin: 0 auto;
+}
