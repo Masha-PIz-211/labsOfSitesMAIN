@@ -1,4 +1,4 @@
-function myFunction3() {
+function myFunction4() {
 let names = ['Дима', 'Катя', 'Петр', 'Лена'];
 
 function chooseWhoPays(names) {
