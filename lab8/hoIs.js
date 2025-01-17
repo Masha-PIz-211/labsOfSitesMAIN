@@ -1,3 +1,4 @@
+function myFunction3() {
 let names = ['Дима', 'Катя', 'Петр', 'Лена'];
 
 function chooseWhoPays(names) {
@@ -7,3 +8,4 @@ function chooseWhoPays(names) {
 
 let payer = chooseWhoPays(names);
 console.log(`Оплачивать будет ${payer}`);
+}
