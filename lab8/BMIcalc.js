@@ -1,3 +1,4 @@
+function myFunction1() {
 let weight = parseFloat(prompt("Введите ваш вес в килограммах (например, 70):"));
 let height = parseFloat(prompt("Введите ваш рост в метрах (например, 1.75):"));
 
@@ -22,3 +23,4 @@ let category = getBMICategory(bmi);
 
 console.log(`Ваш BMI: ${bmi.toFixed(2)}`);
 console.log(`Категория: ${category}`);
+}
