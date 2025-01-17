@@ -1,3 +1,4 @@
+function myFunction1() {
 let num1 = 10;
 let num2 = 20;
 
@@ -25,3 +26,4 @@ console.log("Умножение:", multiplication);
 console.log("Деление:", division);
 console.log("Остаток от деления:", modulus);
 console.log("Возведение в квадрат:", power);
+}
