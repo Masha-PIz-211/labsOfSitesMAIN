@@ -1,3 +1,4 @@
+function myFunction2() {
 let name1 = prompt("Введите ваше имя:");
 let name2 = prompt("Введите имя вашего партнера:");
 
@@ -22,4 +23,5 @@ if (compatibilityScore > 80) {
     console.log("У вас хорошие шансы!");
 } else {
     console.log("Вам стоит поработать над отношениями.");
+}
 }
