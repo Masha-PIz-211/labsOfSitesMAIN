@@ -1,3 +1,4 @@
+function myFunction3() {
 let year = parseInt(prompt("Введите год (например, 2024):"));
 
 function isLeapYear(year) {
@@ -12,4 +13,5 @@ if (isLeapYear(year)) {
     console.log(`${year} - Високосный год`);
 } else {
     console.log(`${year} - Не является високосным годом`);
+}
 }
